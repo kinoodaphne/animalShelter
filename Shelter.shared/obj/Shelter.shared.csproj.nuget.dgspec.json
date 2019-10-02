@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daphne\\Documents\\GitHub\\animalShelter\\Shelter\\Shelter.csproj": {}
+    "C:\\Users\\Daphne\\Documents\\GitHub\\animalShelter\\Shelter.shared\\Shelter.shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daphne\\Documents\\GitHub\\animalShelter\\Shelter\\Shelter.csproj": {
+    "C:\\Users\\Daphne\\Documents\\GitHub\\animalShelter\\Shelter.shared\\Shelter.shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daphne\\Documents\\GitHub\\animalShelter\\Shelter\\Shelter.csproj",
-        "projectName": "Shelter",
-        "projectPath": "C:\\Users\\Daphne\\Documents\\GitHub\\animalShelter\\Shelter\\Shelter.csproj",
+        "projectUniqueName": "C:\\Users\\Daphne\\Documents\\GitHub\\animalShelter\\Shelter.shared\\Shelter.shared.csproj",
+        "projectName": "Shelter.shared",
+        "projectPath": "C:\\Users\\Daphne\\Documents\\GitHub\\animalShelter\\Shelter.shared\\Shelter.shared.csproj",
         "packagesPath": "C:\\Users\\Daphne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daphne\\Documents\\GitHub\\animalShelter\\Shelter\\obj\\",
+        "outputPath": "C:\\Users\\Daphne\\Documents\\GitHub\\animalShelter\\Shelter.shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

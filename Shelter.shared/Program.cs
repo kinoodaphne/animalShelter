@@ -16,6 +16,10 @@ namespace Shelter.shared
             Console.WriteLine(dog1.Name);
             Console.WriteLine("Race? " + dog1.Race);
             Console.WriteLine("---");
+            Other hamster1 = new Other(1, "Hammy", "This is a hamster", new DateTime(2017, 05, 19), true, true, new DateTime(2019, 10, 13), "Gerbil");
+            Console.WriteLine(hamster1.Name);
+            Console.WriteLine("Description? " + hamster1.Description);
+            Console.WriteLine("---");
         }
     }
 }

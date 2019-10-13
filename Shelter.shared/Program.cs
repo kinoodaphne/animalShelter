@@ -6,7 +6,7 @@ namespace Shelter.shared
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to our animal shelter!");
         }
     }
 }

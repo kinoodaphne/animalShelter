@@ -1,11 +1,16 @@
 using System;
-using System.Collections.Generic;
 
-namespace Shelter.shared
+namespace Shelter
 {
-    public class Animals
+    class Animals
     {
-        public Animals(int id, string name, DateTime dateOfBirth, bool isChecked, bool kidFriendly, DateTime since) {
+        public Animals()
+        {
+
+        }
+
+        public Animals(int id, string name, DateTime dateOfBirth, bool isChecked, bool kidFriendly, DateTime since)
+        {
             Id = id;
             Name = name;
             DateOfBirth = dateOfBirth;

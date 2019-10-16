@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "Shelter.shared/1.0.0": {
+      "Shelter.Shared/1.0.0": {
         "runtime": {
-          "Shelter.shared.dll": {}
+          "Shelter.Shared.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Shelter.shared/1.0.0": {
+    "Shelter.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

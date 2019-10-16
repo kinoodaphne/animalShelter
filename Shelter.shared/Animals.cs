@@ -2,7 +2,7 @@ using System;
 
 namespace Shelter
 {
-    class Animals
+    public class Animals
     {
         public Animals()
         {
@@ -25,5 +25,6 @@ namespace Shelter
         public bool IsChecked { get; set; }
         public bool KidFriendly { get; set; }
         public DateTime Since { get; set; }
+        public List<Animals> AnimalList{get; set;}
     }
 }

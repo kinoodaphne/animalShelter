@@ -14,17 +14,17 @@ namespace Shelter.mcv.Models
                 var dog = new AnimalType { Name = "hond" };
                 var cat = new AnimalType { Name = "kat" };
                 var other = new AnimalType { Name = "andere" };
-                var animals = new Shelter.Animals() {
+                /*var animals = new Shelter.Animals() {
                     animal = new List<Animals> {
                         new animals { Name = "Gouden Carolus Classic", BeerType = darkSpecial, Id = 1 },
                         new animals { Name = "Gouden Carolus Tripel", BeerType = tripel, Id = 2 },
                         new animals { Name = "Gouden Carolus Tripel Versie II", BeerType = tripel, Id = 3 },
                     }
-                };
+                };*/
 
-                _animalTypes = new[] { darkSpecial, tripel, amberspecial };
+                /*_animalTypes = new[] { darkSpecial, tripel, amberspecial };
                 _animals = animals;
-                _isInitialized = true;
+                _isInitialized = true;*/
             }
         }
 

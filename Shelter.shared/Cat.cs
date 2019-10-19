@@ -9,7 +9,8 @@ namespace Shelter
 
         }
 
-        public Cat(int id, string name, string race, DateTime dateOfBirth, bool isChecked, bool kidFriendly, DateTime since, bool declawed) : base(id, name, dateOfBirth, isChecked, kidFriendly, since)
+        public Cat(int id, string name, string race, DateTime dateOfBirth, bool isChecked, bool kidFriendly, DateTime since, bool declawed)
+                    : base(id, name, dateOfBirth, isChecked, kidFriendly, since)
         {
             Race = race;
             Declawed = declawed;

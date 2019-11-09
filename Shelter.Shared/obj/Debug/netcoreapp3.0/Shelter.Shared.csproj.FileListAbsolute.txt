@@ -1,0 +1,11 @@
+C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.Shared\bin\Debug\netcoreapp3.0\Shelter.Shared.exe
+C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.Shared\bin\Debug\netcoreapp3.0\Shelter.Shared.deps.json
+C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.Shared\bin\Debug\netcoreapp3.0\Shelter.Shared.runtimeconfig.json
+C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.Shared\bin\Debug\netcoreapp3.0\Shelter.Shared.runtimeconfig.dev.json
+C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.Shared\bin\Debug\netcoreapp3.0\Shelter.Shared.dll
+C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.Shared\bin\Debug\netcoreapp3.0\Shelter.Shared.pdb
+C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.Shared\obj\Debug\netcoreapp3.0\Shelter.Shared.csprojAssemblyReference.cache
+C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.Shared\obj\Debug\netcoreapp3.0\Shelter.Shared.AssemblyInfoInputs.cache
+C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.Shared\obj\Debug\netcoreapp3.0\Shelter.Shared.AssemblyInfo.cs
+C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.Shared\obj\Debug\netcoreapp3.0\Shelter.Shared.dll
+C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.Shared\obj\Debug\netcoreapp3.0\Shelter.Shared.pdb

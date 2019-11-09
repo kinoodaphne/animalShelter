@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    ".NETCoreApp,Version=v3.0": {
+      "Shelter.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Shelter.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shelter.Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Shelter.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shelter.Shared/Shelter.Shared.csproj",
+      "msbuildProject": "../Shelter.Shared/Shelter.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    ".NETCoreApp,Version=v3.0": [
+      "Shelter.Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Daphne\\.nuget\\packages\\": {},
@@ -34,7 +53,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Daphne\\Documents\\GitHub\\animalShelter\\Shelter.Shared\\Shelter.Shared.csproj": {
+              "projectPath": "C:\\Users\\Daphne\\Documents\\GitHub\\animalShelter\\Shelter.Shared\\Shelter.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

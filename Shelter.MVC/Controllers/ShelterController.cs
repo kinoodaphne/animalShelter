@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Shelter.MVC.Models;
+using Shelter.Shared;
 
 namespace Shelter.MVC.Controllers
 {
@@ -28,7 +29,7 @@ namespace Shelter.MVC.Controllers
 
             // Select a specific animal with their id and display a detailspage for this animal
 
-            var targetAnimal = AnimalViewModel.Shelter.Animals.FirstOrDefault(x => x.Id == id);
+            var targetAnimal = AnimalDatabase.Shelter.Animals.FirstOrDefault(x => x.Id == id);
 			if (targetAnimal == default(Animal))
 			{
 				return NotFound();
@@ -38,7 +39,7 @@ namespace Shelter.MVC.Controllers
 
         public IActionResult Delete(int id)
 		{
-			var targetAnimal = AnimalViewModel.Shelter.Animals.FirstOrDefault(x => x.Id == id);
+			var targetAnimal = AnimalDatabase.Shelter.Animals.FirstOrDefault(x => x.Id == id);
 			if (targetAnimal == default(Animal))
 			{
 				return NotFound();
@@ -49,12 +50,12 @@ namespace Shelter.MVC.Controllers
 		[HttpPost]
 		public IActionResult DoDelete(int id)
 		{
-			var targetAnimal = AnimalViewModel.Shelter.Animals.FirstOrDefault(x => x.Id == id);
+			var targetAnimal = AnimalDatabase.Shelter.Animals.FirstOrDefault(x => x.Id == id);
 			if (targetAnimal == default(Animal))
 			{
 				return NotFound();
 			}
-			AnimalViewModel.Shelter.Animals.Remove(targetAnimal);
+			AnimalDatabase.Shelter.Animals.Remove(targetAnimal);
 			return RedirectToAction(nameof(Index));
 		}
     }

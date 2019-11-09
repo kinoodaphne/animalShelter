@@ -36,3 +36,5 @@ C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.MVC\obj\Debug\netcoreapp3
 C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.MVC\obj\Debug\netcoreapp3.0\Shelter.MVC.csproj.CopyComplete
 C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.MVC\obj\Debug\netcoreapp3.0\Shelter.MVC.dll
 C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.MVC\obj\Debug\netcoreapp3.0\Shelter.MVC.pdb
+C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.MVC\obj\Debug\netcoreapp3.0\Razor\Views\Shelter\detail.cshtml.g.cs
+C:\Users\Daphne\Documents\GitHub\animalShelter\Shelter.MVC\obj\Debug\netcoreapp3.0\Razor\Views\Shelter\index.cshtml.g.cs

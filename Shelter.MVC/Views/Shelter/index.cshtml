@@ -1,0 +1,17 @@
+@model Shelter.Animals
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Type Name</th>
+  </tr>
+  @foreach (var item in Model.Animals)
+  {
+    <tr>
+      <td>@item.Name</td>
+      <td><a asp-controller="Animal" asp-action="detail" asp-route-id=@item.Id>Detail</a></td>
+      <td><a asp-controller="Animal" asp-action="delete" asp-route-id=@item.Id>Delete</a></td>
+
+    </tr>
+  }
+</table>

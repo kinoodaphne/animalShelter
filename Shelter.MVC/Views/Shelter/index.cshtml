@@ -1,11 +1,11 @@
-@model Shelter.Animals
+@model Shelter.Shared.Animal;
 
 <table>
   <tr>
     <th>Name</th>
     <th>Type Name</th>
   </tr>
-  @foreach (var item in Model.Animals)
+  @foreach (var item in Model.Animal)
   {
     <tr>
       <td>@item.Name</td>

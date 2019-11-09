@@ -8,12 +8,10 @@
 <label method="post" asp-controller="Shelter" asp-action="DoUpdate">
 	<label asp-for="Name">Name:</label><br>
 	<input type="text" placeholder="@Model.Name" name="Name"><br>
-	<label asp-for="Race">Type: </label><br>
-	<input type="text" placeholder="@Model.Race" name="Race"><br>
 	<label asp-for="DateOfBirth">Date of Birth: </label><br>
 	<input type="text" placeholder="@Model.DateOfBirth" name="DateOfBirth" disabled><br>
-	<label asp-for="IsKidFriendly">Kid Friendly: </label><br>
-	<input type="text" placeholder="@Model.IsKidFriendly" name="IsKidFriendly" disabled><br>
+	<label asp-for="KidFriendly">Kid Friendly: </label><br>
+	<input type="text" placeholder="@Model.KidFriendly" name="KidFriendly" disabled><br>
 	<label asp-for="Since">Since: </label><br>
 	<input type="text" placeholder="@Model.Since" name="Since" disabled><br>
 	<input asp-for="Id" type="hidden">

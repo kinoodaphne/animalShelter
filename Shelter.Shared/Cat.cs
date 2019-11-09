@@ -8,12 +8,9 @@ namespace Shelter.Shared
 
         }
 
-        public Cat(int id, string name, string race, DateTime dateOfBirth, bool isChecked, bool kidFriendly, DateTime since, bool declawed) : base(id, name, dateOfBirth, isChecked, kidFriendly, since) {
-            Race = race;
+        public Cat(int id, string name, string race, DateTime dateOfBirth, bool isChecked, bool kidFriendly, DateTime since, bool declawed) : base(id, name, race, dateOfBirth, isChecked, kidFriendly, since) {
             Declawed = declawed;
         }
-
-        public string Race { get; set; }
         public bool Declawed { get; set; }
     }
 }

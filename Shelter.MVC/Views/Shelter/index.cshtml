@@ -1,11 +1,14 @@
-@model Shelter.Shared.Animal;
+@using System;
+@using Shelter.Shared;
+@using System.Collections.Generic;
+@using Shelter.MVC.Models;
 
 <table>
   <tr>
     <th>Name</th>
     <th>Type Name</th>
   </tr>
-  @foreach (var item in Model.Animal)
+  @foreach (var item in Model.Animals)
   {
     <tr>
       <td>@item.Name</td>

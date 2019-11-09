@@ -1,1 +1,4 @@
 .vscode
+Shelter.MVC/bin/Debug/netcoreapp3.0/Shelter.MVC.dll
+Shelter.MVC/bin/Debug/netcoreapp3.0/Shelter.MVC.Views.dll
+Shelter.MVC/bin/Debug/netcoreapp3.0/Shelter.Shared.dll

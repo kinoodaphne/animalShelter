@@ -9,7 +9,7 @@ namespace Shelter.Shared
 
         }
 
-        public Animal(int id, string name, string race, DateTime dateOfBirth, bool isChecked, bool kidFriendly, DateTime since) {
+        public Animal(int id, string name, string race, DateTime dateOfBirth, bool isChecked, bool kidFriendly, DateTime since, int shelterId) {
             Id = id;
             Name = name;
             Race = race;
@@ -17,6 +17,7 @@ namespace Shelter.Shared
             IsChecked = isChecked;
             KidFriendly = kidFriendly;
             Since = since;
+            ShelterId = shelterId;
         }
 
         public int Id { get; set; }
@@ -26,5 +27,6 @@ namespace Shelter.Shared
         public bool IsChecked { get; set; }
         public bool KidFriendly { get; set; }
         public DateTime Since { get; set; }
+        public int ShelterId { get; set; }
     }
 }

@@ -8,7 +8,7 @@ namespace Shelter.Shared
 
         }
 
-        public Other(int id, string name, string race, string description, DateTime dateOfBirth, bool isChecked, bool kidFriendly, DateTime since) : base(id, name, race, dateOfBirth, isChecked, kidFriendly, since) {
+        public Other(int id, string name, string race, string description, DateTime dateOfBirth, bool isChecked, bool kidFriendly, int shelterId, DateTime since) : base(id, name, race, dateOfBirth, isChecked, kidFriendly, since, shelterId) {
             Description = description;
         }
         public string Description { get; set; }

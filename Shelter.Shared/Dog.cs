@@ -8,12 +8,9 @@ namespace Shelter.Shared
 
         }
 
-        public Dog(int id, string name, string race, DateTime dateOfBirth, bool isChecked, bool kidFriendly, DateTime since, bool barker) : base(id, name, dateOfBirth, isChecked, kidFriendly, since) {
-            Race = race;
+        public Dog(int id, string name, string race, DateTime dateOfBirth, bool isChecked, bool kidFriendly, DateTime since, bool barker) : base(id, name, race, dateOfBirth, isChecked, kidFriendly, since) {
             Barker = barker;
         }
-
-        public string Race { get; set; }
         public bool Barker { get; set; }
     }
 }

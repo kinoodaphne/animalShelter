@@ -17,11 +17,19 @@ namespace Shelter.MVC.Models
         var shelter = new Shelter.Shared.Shelter()
         {
           Animals = new List<Animal> {
-            new Dog(1, "Sia", "Shitzu", new DateTime(2019, 09, 09), true, true, new DateTime(2019, 10, 13), false),
-            new Cat(2, "Jef", "Tabby", new DateTime(2009, 12, 06), true, true, new DateTime(2019, 10, 13), false),
-            new Other(3, "Hammy", "Gerbil", "This is a hamster", new DateTime(2017, 05, 19), true, true, new DateTime(2019, 10, 13)),
+            // (int id, string name, string race, DateTime dateOfBirth, bool isChecked, bool kidFriendly, DateTime since, int shelterId, bool barker)
+            new Dog(1, "Sia", "Shitzu", new DateTime(2019, 09, 09), true, true, new DateTime(2019, 10, 13), 1, false),
+
+            // (int id, string name, string race, DateTime dateOfBirth, bool isChecked, bool kidFriendly, DateTime since, int shelterId, bool declawed)
+            new Cat(2, "Jef", "Tabby", new DateTime(2009, 12, 06), true, true, new DateTime(2019, 10, 13), 1, false),
+            
+            // (int id, string name, string race, string description, DateTime dateOfBirth, bool isChecked, bool kidFriendly, int shelterId, DateTime since)
+            new Other(3, "Hammy", "Gerbil", "This is a hamster", new DateTime(2017, 05, 19), true, true, new DateTime(2019, 10, 13), 1),
             }
         };
+
+        shelter.Id = 1;
+        shelter.Name = "VIDA";
 
         _shelter = shelter;
         _isInitialized = true;

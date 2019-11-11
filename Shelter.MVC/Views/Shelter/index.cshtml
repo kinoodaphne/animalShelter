@@ -6,12 +6,16 @@
 <table>
   <tr>
     <th>Name</th>
-    <th>Type Name</th>
+    <th></th>
+    <th>Race</th>
+    <th>Options</th>
   </tr>
   @foreach (var item in Model.Animals)
   {
     <tr>
       <td>@item.Name</td>
+      <td></td>
+      <td>@item.Race</td>
       <td><a asp-controller="Shelter" asp-action="Detail" asp-route-id=@item.Id>Detail</a></td>
       <td><a asp-controller="Shelter" asp-action="Delete" asp-route-id=@item.Id>Delete</a></td>
 
